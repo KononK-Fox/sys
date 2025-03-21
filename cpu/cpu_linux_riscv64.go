@@ -46,12 +46,12 @@ import (
 //
 // Please see https://docs.kernel.org/arch/riscv/hwprobe.html for more information.
 
-// golang.org/x/sys/cpu is not allowed to depend on golang.org/x/sys/unix so we must
+// github.com/kononk-fox/sys/cpu is not allowed to depend on github.com/kononk-fox/sys/unix so we must
 // reproduce the constants, types and functions needed to make the riscv_hwprobe syscall
 // here.
 
 const (
-	// Copied from golang.org/x/sys/unix/ztypes_linux_riscv64.go.
+	// Copied from github.com/kononk-fox/sys/unix/ztypes_linux_riscv64.go.
 	riscv_HWPROBE_KEY_IMA_EXT_0   = 0x4
 	riscv_HWPROBE_IMA_C           = 0x2
 	riscv_HWPROBE_IMA_V           = 0x4
@@ -64,11 +64,11 @@ const (
 )
 
 const (
-	// sys_RISCV_HWPROBE is copied from golang.org/x/sys/unix/zsysnum_linux_riscv64.go.
+	// sys_RISCV_HWPROBE is copied from github.com/kononk-fox/sys/unix/zsysnum_linux_riscv64.go.
 	sys_RISCV_HWPROBE = 258
 )
 
-// riscvHWProbePairs is copied from golang.org/x/sys/unix/ztypes_linux_riscv64.go.
+// riscvHWProbePairs is copied from github.com/kononk-fox/sys/unix/ztypes_linux_riscv64.go.
 type riscvHWProbePairs struct {
 	key   int64
 	value uint64
@@ -119,7 +119,7 @@ func isSet(hwc uint, value uint) bool {
 }
 
 // riscvHWProbe is a simplified version of the generated wrapper function found in
-// golang.org/x/sys/unix/zsyscall_linux_riscv64.go. We simplify it by removing the
+// github.com/kononk-fox/sys/unix/zsyscall_linux_riscv64.go. We simplify it by removing the
 // cpuCount and cpus parameters which we do not need. We always want to pass 0 for
 // these parameters here so the kernel only reports the extensions that are present
 // on all cores.

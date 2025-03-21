@@ -12,7 +12,7 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/sys/unix"
+	"github.com/kononk-fox/sys/unix"
 )
 
 func TestDup3(t *testing.T) {

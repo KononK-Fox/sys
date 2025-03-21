@@ -843,7 +843,7 @@ func (src *Source) Generate(w io.Writer) error {
 			src.Import("internal/syscall/windows/sysdll")
 		case pkgXSysWindows:
 		default:
-			src.ExternalImport("golang.org/x/sys/windows")
+			src.ExternalImport("github.com/kononk-fox/sys/windows")
 		}
 	}
 	if packageName != "syscall" {

@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/sys/unix"
+	"github.com/kononk-fox/sys/unix"
 )
 
 func TestSysctlRaw(t *testing.T) {

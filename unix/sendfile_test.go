@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"golang.org/x/sys/unix"
+	"github.com/kononk-fox/sys/unix"
 )
 
 func TestSendfile(t *testing.T) {

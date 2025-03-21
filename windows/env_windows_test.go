@@ -11,7 +11,7 @@ import (
 	"slices"
 	"testing"
 
-	"golang.org/x/sys/windows"
+	"github.com/kononk-fox/sys/windows"
 )
 
 func TestEnvironUTF8(t *testing.T) {

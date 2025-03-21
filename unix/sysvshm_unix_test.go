@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/sys/unix"
+	"github.com/kononk-fox/sys/unix"
 )
 
 func TestSysvSharedMemory(t *testing.T) {

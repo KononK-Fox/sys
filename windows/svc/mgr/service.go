@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"golang.org/x/sys/windows"
-	"golang.org/x/sys/windows/svc"
+	"github.com/kononk-fox/sys/windows"
+	"github.com/kononk-fox/sys/windows/svc"
 )
 
 // Service is used to access Windows service.

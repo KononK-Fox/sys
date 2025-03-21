@@ -12,7 +12,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"golang.org/x/sys/windows"
+	"github.com/kononk-fox/sys/windows"
 )
 
 // State describes service execution state (Stopped, Running and so on).

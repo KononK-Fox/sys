@@ -9,7 +9,7 @@ package unix_test
 import (
 	"testing"
 
-	"golang.org/x/sys/unix"
+	"github.com/kononk-fox/sys/unix"
 )
 
 func TestPipe2(t *testing.T) {

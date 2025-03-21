@@ -383,7 +383,7 @@ func main() {
 	}
 	imp := ""
 	if pack != "unix" {
-		imp = "import \"golang.org/x/sys/unix\"\n"
+		imp = "import \"github.com/kononk-fox/sys/unix\"\n"
 
 	}
 	fmt.Printf(srcTemplate, cmdLine(), goBuildTags(), pack, cExtern, imp, text)

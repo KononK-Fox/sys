@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/sys/unix"
+	"github.com/kononk-fox/sys/unix"
 )
 
 func TestPpoll(t *testing.T) {

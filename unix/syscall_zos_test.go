@@ -27,7 +27,7 @@ import (
 	"time"
 	"unsafe"
 
-	"golang.org/x/sys/unix"
+	"github.com/kononk-fox/sys/unix"
 )
 
 func TestLibVec(t *testing.T) {

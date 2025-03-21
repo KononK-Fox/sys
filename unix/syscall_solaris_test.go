@@ -16,7 +16,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/sys/unix"
+	"github.com/kononk-fox/sys/unix"
 )
 
 // getOneRetry wraps EventPort.GetOne which in turn wraps a syscall that can be

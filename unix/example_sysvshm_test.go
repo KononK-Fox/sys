@@ -9,7 +9,7 @@ package unix_test
 import (
 	"log"
 
-	"golang.org/x/sys/unix"
+	"github.com/kononk-fox/sys/unix"
 )
 
 func ExampleSysvShmGet() {

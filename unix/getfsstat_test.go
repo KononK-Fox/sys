@@ -10,7 +10,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"golang.org/x/sys/unix"
+	"github.com/kononk-fox/sys/unix"
 )
 
 func TestGetfsstat(t *testing.T) {

@@ -10,7 +10,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"golang.org/x/sys/unix"
+	"github.com/kononk-fox/sys/unix"
 )
 
 func TestMremap(t *testing.T) {

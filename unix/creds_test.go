@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/sys/unix"
+	"github.com/kononk-fox/sys/unix"
 )
 
 // TestSCMCredentials tests the sending and receiving of credentials

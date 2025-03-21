@@ -1,6 +1,6 @@
 # sys
 
-[![Go Reference](https://pkg.go.dev/badge/golang.org/x/sys.svg)](https://pkg.go.dev/golang.org/x/sys)
+[![Go Reference](https://pkg.go.dev/badge/github.com/kononk-fox/sys.svg)](https://pkg.go.dev/github.com/kononk-fox/sys)
 
 This repository holds supplemental Go packages for low-level interactions with
 the operating system.

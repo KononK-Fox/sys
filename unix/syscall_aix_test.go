@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/sys/unix"
+	"github.com/kononk-fox/sys/unix"
 )
 
 func TestIoctlGetInt(t *testing.T) {

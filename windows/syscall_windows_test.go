@@ -22,7 +22,7 @@ import (
 	"unicode/utf8"
 	"unsafe"
 
-	"golang.org/x/sys/windows"
+	"github.com/kononk-fox/sys/windows"
 )
 
 func TestWin32finddata(t *testing.T) {
