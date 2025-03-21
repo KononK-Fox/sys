@@ -1,3 +1,3 @@
-module golang.org/x/sys
+module github.com/kononk-fox/sys
 
 go 1.22.0
